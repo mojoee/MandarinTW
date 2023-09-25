@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mandarintw"
+version = "0.1.0"
+description = "Personal Vocabulary Book"
+authors = ["mojoee <47809126+mojoee@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+translate-api = "^4.9.5"
+sqlalchemy = "^2.0.21"
+googletrans = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
